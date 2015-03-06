@@ -1,0 +1,1 @@
+select count(distinct(siren)),cp from dianeComparable where a88_sector="20" group by cp
